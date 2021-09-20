@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
     width: 80%;
    margin: auto;
 }
 
-.scheda-prodotto{
+.scheda-prodotto {
     width:30%;
     float: left;
     margin: 1%;
@@ -17,11 +17,11 @@ main{
     cursor: pointer;
 }
 
-img{
+img {
     width:100%;
 }
 
-.cuore{
+.cuore {
     text-align: center;
     font-size: 30px;
     background-color: white;
@@ -32,38 +32,38 @@ img{
     right: 0;
 }
 
-.classificazione{
+.classificazione {
     position:absolute;
     bottom: 100px;
 }
 
-.discount{
+.discount {
     background-color: red;
     color: white;
     padding: 5px;
     /* margin-right: 5px; */
 }
 
-.sostenibilita{
+.sostenibilita {
     color: white;
     background-color: green;
     padding: 5px;
 }
 
-.price{
+.price {
     color: red;
 }
 
-.not-price{
+.not-price {
     color: gray;
     text-decoration: line-through;
 }
 
-.imgb{
+.imgb {
     position: absolute;
     display: none;
 }
 
-.scheda-prodotto:hover .imgb{
+.scheda-prodotto:hover .imgb {
     display: block;
 }
