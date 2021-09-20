@@ -17,6 +17,7 @@ main{
     float: left;
     margin: 1%;
     position: relative;
+    cursor: pointer;
 }
 
 img{
@@ -58,4 +59,12 @@ img{
 .not-price{
     color: gray;
     text-decoration: line-through;
+}
+.imgb{
+    position: absolute;
+    display: none;
+}
+
+.scheda-prodotto:hover img{
+    display: block;
 }
