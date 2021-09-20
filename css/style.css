@@ -18,6 +18,7 @@ main{
     margin: 1%;
     position: relative;
     cursor: pointer;
+    
 }
 
 img{
@@ -65,6 +66,6 @@ img{
     display: none;
 }
 
-.scheda-prodotto:hover img{
+.scheda-prodotto:hover .imgb{
     display: block;
 }
