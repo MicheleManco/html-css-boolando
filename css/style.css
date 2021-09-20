@@ -8,9 +8,6 @@ main{
     width: 80%;
    margin: auto;
 }
-.container-prodotto{
-
-}
 
 .scheda-prodotto{
     width:30%;
@@ -18,7 +15,6 @@ main{
     margin: 1%;
     position: relative;
     cursor: pointer;
-    
 }
 
 img{
@@ -47,6 +43,7 @@ img{
     padding: 5px;
     /* margin-right: 5px; */
 }
+
 .sostenibilita{
     color: white;
     background-color: green;
@@ -61,6 +58,7 @@ img{
     color: gray;
     text-decoration: line-through;
 }
+
 .imgb{
     position: absolute;
     display: none;
