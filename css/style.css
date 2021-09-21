@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 main {
     width: 80%;
